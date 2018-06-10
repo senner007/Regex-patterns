@@ -2,9 +2,8 @@
 Regular Expressions demystified 
 
 
-##### Find middle of mail address, but not after john@
+
+##### 1. Find middle of mail address, but not after john@ - https://regexr.com/3qqma
 ```
 (?<!john@)(?<=@).+(?=\.[a-z]{2,4})
-
 ```
-https://regexr.com/3qqma
