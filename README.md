@@ -10,5 +10,5 @@ Regular Expressions demystified
 
 ##### 2. Check if numbers are full house - https://regexr.com/3qqma
 ```
-(?<!john@)(?<=@).+(?=\.[a-z]{2,4})
+\b(\d)\1{2}(\d)\2{1}(?<!\1)\b|\b(\d)\3{1}(\d)\4{2}(?<!\3)\b
 ```
