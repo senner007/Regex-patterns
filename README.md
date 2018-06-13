@@ -14,6 +14,7 @@ Regular Expressions demystified
 ```
 
 ##### * Match all words that do not contain hyphen(with negative lookbehind) - https://regexr.com/3r036
+https://stackoverflow.com/questions/50823649/regex-match-all-words-that-do-not-contain-hyphen
 ```
 \b(?<!-)\w+(?!-)\b
 ```
@@ -23,11 +24,9 @@ Regular Expressions demystified
 (?:[^-]|^)\b(\w+)\b(?=[^-]|$)
 ```
 
-https://stackoverflow.com/questions/50823649/regex-match-all-words-that-do-not-contain-hyphen
-
-
 ##### * Regex to allow letters, one space between words and a total length of 50 - https://regexr.com/3r030
+https://stackoverflow.com/questions/26142059/regex-to-allow-letters-one-space-between-words-and-a-total-length-of-50/26142092#26142092
 ```
 (?:[^-]|^)\b(\w+)\b(?=[^-]|$)
 ```
-https://stackoverflow.com/questions/26142059/regex-to-allow-letters-one-space-between-words-and-a-total-length-of-50/26142092#26142092
+
