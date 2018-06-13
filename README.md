@@ -27,6 +27,6 @@ https://stackoverflow.com/questions/50823649/regex-match-all-words-that-do-not-c
 ##### * Regex to allow letters, one space between words and a total length of 50 - https://regexr.com/3r030
 https://stackoverflow.com/questions/26142059/regex-to-allow-letters-one-space-between-words-and-a-total-length-of-50/26142092#26142092
 ```
-(?:[^-]|^)\b(\w+)\b(?=[^-]|$)
+^\b(?!.*?\s{2})[A-Za-z ]{1,50}\b$
 ```
 
