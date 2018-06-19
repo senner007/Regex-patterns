@@ -1,11 +1,9 @@
 # Regex-patterns
 Regular Expressions demystified 
 
-###
-Lookbehinds are implemented in es2018 and require latest Chrome or Node.js
-###
+ - Lookbehinds are implemented in es2018 and require latest Chrome or Node.js
 
-### A guide to regular expressions in javascript - https://flaviocopes.com/javascript-regular-expressions/
+##### A guide to regular expressions in javascript - https://flaviocopes.com/javascript-regular-expressions/
 
 
 ##### * Find middle of mail address, but not after john@ - https://regexr.com/3qqnn
